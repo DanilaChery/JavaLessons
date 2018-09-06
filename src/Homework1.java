@@ -42,6 +42,7 @@ public class Homework1 {
     public static String task7(String name){
         return ("Hello," + name);
     }
+    
     public static void optionalTask8(int year){
         if (year%4 == 0 && year%100 != 0 || year%400 == 0){
             System.out.println("Год является високосным!");
